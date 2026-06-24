@@ -1,0 +1,19 @@
+{
+  "name": "testorange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open",
+    "testc": "cypress run",
+    "testOrange": "cypress run --spec cypress/e2e/testPageOrange.cy.js --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.17.0"
+  }
+}
