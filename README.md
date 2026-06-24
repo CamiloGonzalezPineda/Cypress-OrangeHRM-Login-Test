@@ -1,51 +1,51 @@
-# TestOrange
+# Cypress-OrangeHRM-Login-Test
 
-## Descripción
+## Description
 
-Proyecto de automatización de pruebas desarrollado con Cypress sobre la aplicación de demostración de OrangeHRM.
+This test automation project was developed using Cypress on the OrangeHRM demo application.
 
-El objetivo de este proyecto es practicar pruebas End-to-End (E2E), validando el flujo de autenticación de usuarios y verificando elementos importantes de la interfaz después del inicio de sesión.
+The main goal of this project is to practice End-to-End (E2E) testing by validating the user authentication flow and verifying key interface elements after a successful login.
 
-## Tecnologías utilizadas
+## Technologies Used
 
-- JavaScript
-- Cypress
-- Node.js
-- NPM
+* JavaScript
+* Cypress
+* Node.js
+* NPM
 
-## Sitio utilizado para las pruebas
+## Test Website
 
 OrangeHRM Demo:
 
 https://opensource-demo.orangehrmlive.com/
 
-## Escenario automatizado
+## Automated Test Scenario
 
-### Login y validación del Dashboard
+### Login and Dashboard Validation
 
-La prueba realiza las siguientes acciones:
+The test performs the following actions:
 
-1. Accede a la página de inicio de sesión.
-2. Verifica que los elementos principales de la interfaz sean visibles.
-3. Ingresa credenciales válidas.
-4. Ejecuta el proceso de autenticación.
-5. Verifica que el usuario haya iniciado sesión correctamente.
-6. Valida información visible dentro del Dashboard.
+1. Accesses the login page.
+2. Verifies that the main interface elements are visible.
+3. Enters valid credentials.
+4. Executes the login process.
+5. Verifies that the user has successfully logged in.
+6. Validates visible information within the Dashboard.
 
-### Validaciones realizadas
+### Validations Performed
 
-- Logo de OrangeHRM visible.
-- Campo Username visible.
-- Campo Password visible.
-- Botón Login visible.
-- Información de copyright visible.
-- Nombre del usuario visible después del login.
-- Widget "Time at Work" visible en el Dashboard.
+* OrangeHRM logo is visible.
+* Username field is visible.
+* Password field is visible.
+* Login button is visible.
+* Copyright information is visible.
+* User name is displayed after login.
+* "Time at Work" widget is visible on the Dashboard.
 
-## Estructura del proyecto
+## Project Structure
 
 ```text
-TestOrange/
+Cypress-OrangeHRM-Login-Test/
 │
 ├── cypress/
 │   ├── e2e/
@@ -59,52 +59,52 @@ TestOrange/
 └── README.md
 ```
 
-## Instalación
+## Installation
 
-Clonar el repositorio:
+Clone the repository:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <REPOSITORY_URL>
 ```
 
-Instalar dependencias:
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-## Ejecución de pruebas
+## Running the Tests
 
-Abrir Cypress:
+Open Cypress Test Runner:
 
 ```bash
 npx cypress open
 ```
 
-Ejecutar pruebas en modo headless:
+Run tests in headless mode:
 
 ```bash
 npx cypress run
 ```
 
-## Objetivos de aprendizaje
+## Learning Objectives
 
-Este proyecto fue desarrollado para fortalecer conocimientos en:
+This project was developed to strengthen knowledge in:
 
-- Automatización de pruebas E2E.
-- Uso de Cypress.
-- Validación de elementos en el DOM.
-- Manejo de selectores CSS.
-- Assertions (Aserciones).
-- Automatización de flujos de autenticación.
-- Buenas prácticas en pruebas automatizadas.
+* End-to-End (E2E) Test Automation
+* Cypress Fundamentals
+* DOM Element Validation
+* CSS Selectors
+* Assertions
+* Authentication Flow Testing
+* Automated Testing Best Practices
 
-## Evidencias
+## Evidence
 
-La carpeta `evitenciaExtraTest` contiene evidencias y recursos relacionados con la ejecución de las pruebas realizadas durante la práctica.
+The `evitenciaExtraTest` folder contains evidence and supporting resources related to the execution of the automated tests performed during this practice.
 
-## Autor
+## Author
 
 Camilo González
 
-Proyecto desarrollado con fines educativos como parte de mi proceso de formación en Quality Assurance (QA) y Automatización de Pruebas.
+This project was developed for educational purposes as part of my learning journey in Quality Assurance (QA) and Test Automation.
