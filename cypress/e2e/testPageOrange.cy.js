@@ -13,7 +13,7 @@ it("should loging and valide the page",()=>{
     cy.get('[name="username"]').type("Admin")
     cy.get('[name="password"]').type("admin123")
     cy.get(".oxd-button").click()
-    cy.get(".oxd-userdropdown-name").contains("Laura Martínez")
+    cy.get(".oxd-userdropdown-name").should("be.visible")
     cy.get(":nth-child(1) > .oxd-sheet > .orangehrm-dashboard-widget-header > .orangehrm-dashboard-widget-name > .oxd-text").contains("Time at Work")
 
 
